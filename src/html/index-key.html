@@ -5,28 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
     <script>
         $(document).ready(function(){
         $('select').formSelect();
       });
-    
-      
+   
     </script>      
 </head>
-<body>
-    <div class="container">
-     <div class="row">
-        <div class="col s12">
-            <h4 class="light">Ai-Docs</h4>
-        </div>
-     </div>
-  <p>here the credirts andv the usage metrics along with open ai key</p>
-     
+<body class="bg-gradient-to-b from-blue-500 to-purple-600 h-screen flex justify-center items-center">
+
+    <div class="w-11/12 h-auto bg-white rounded-lg p-3 shadow-md ">
+        <input class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 text-xs" type="text" placeholder="Enter your key">
+        <button class="w-full mt-4 bg-blue-500 text-white text-xs py-2 rounded hover:bg-blue-600 transition duration-300 ease-in-out">Submit</button>
     </div>
-</body>
+  
+  </body>
 
 </html>
