@@ -62,6 +62,8 @@ const showSidebar = () => {
     template.personaOptions = personaOptions;
     template.languageOptions = languageOptions;
     template.writingOptions = writingOptions;
+    const RegisteredEmail = Session.getActiveUser().getEmail();
+    template.loggedinEmail = RegisteredEmail;
     const html = template.evaluate().setTitle('Ai-Docs');
     DocumentApp.getUi().showSidebar(html);
 }

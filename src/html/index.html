@@ -29,11 +29,11 @@
       
     </script>      
 </head>
-<body class="bg-gradient-to-b from-blue-500 to-purple-600 h-screen flex justify-center items-center">
+<body class="bg-gradient-to-b from-blue-500 to-purple-600 h-screen flex flex-col justify-center items-center">
 
-    <div class="w-11/12">
-        <a href="#" class="inline-flex items-center px-6 py-3 bg-blue-500 rounded-md shadow-md text-white text-xs hover:bg-blue-600 transition duration-300 ease-in-out">
-          Buy Subscription 🛍️
+    <div class="w-11/12 top-0">
+        <a href="#" class="inline-flex items-center px-6  rounded-md  text-white text-xs font-bold transition duration-300 ease-in-out">
+          Buy Subscription 🛍️✨
         </a>
       </div>
       
@@ -70,6 +70,18 @@
       </div>
     </div>
   
+
+
+
+    <div class="w-11/12 h-auto  rounded-lg p-3 ">
+        <a href="#" class="inline-flex items-center justify-end  rounded-md  text-white font-bold text-xs">
+            <span class="text-xs align-text-bottom">
+                👤 Logged  
+            </span>
+            &nbsp;<?= loggedinEmail ?>
+        </a>
+    </div>
+    
   </body>
 
 </html>
